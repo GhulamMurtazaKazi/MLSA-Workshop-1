@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "__images__/workspace-2167299.jpg";
+import image from "https://github.com/GhulamMurtazaKazi/MLSA-Workshop-1/blob/main/src/images/workspace-2167299.jpg";
 const imageAltText = "laptop and book";
 /**
  * Project list
