@@ -21,10 +21,10 @@ import resume from "../resume.pdf";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+import image from "https://www.istockphoto.com/en/photo/3d-rendered-classic-sculpture-metaverse-avatar-with-network-of-low-poly-glowing-gm1401980646-455043990?phrase=ai";
 
 const imageAltText =
-  "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+  "an ai generated fantasy image representing the artificial intelligence";
 const Home = ({ name, title }) => {
   /**
    * Downloads the resume file stored in the path .
