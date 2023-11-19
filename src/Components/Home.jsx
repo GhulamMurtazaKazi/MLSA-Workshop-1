@@ -21,7 +21,7 @@ import resume from "../resume.pdf";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "/**
+import image from "__images__/fantasy-3341647.jpg"
 * Home component
 *
 * The section at the top of the page to display image of your
@@ -44,10 +44,10 @@ import resume from "../resume.pdf";
 * Need an image? Check out https://unsplash.com to download a photo you
 * freely use on your site.
 */
-import image from "src/images/socials/quantum-physics-4550602.jpg";
+import image from "__images__/fantasy-3341647.jpg";
 
 const imageAltText =
- "an artificial intelligence image";
+ "fantasy image";
 const Home = ({ name, title }) => {
  /**
   * Downloads the resume file stored in the path .
