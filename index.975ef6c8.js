@@ -27179,28 +27179,28 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
-var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
-const imageAltText = "purple and blue abstract background";
+ */ var _backgroundJpg = require("../images/background.jpg");
+var _backgroundJpgDefault = parcelHelpers.interopDefault(_backgroundJpg);
+const imageAltText = "abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+ */ const description = "Iam an AI/Ml enthusiast currently pursuing my undergraduate program(BSAI) at fast-NUCES karachi.I love to approach complex real-time problems and evaluating proficient solutions";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design", 
+    "C language",
+    "Github",
+    "Html",
+    "CSS",
+    "Wordpress",
+    "", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+ */ const detailOrQuote = "With a fervor for problem-solving and a penchant for innovation, I leverage my extensive experience to consistently seek out fresh, creative solutions. My goal is to make technology universally accessible, breaking down barriers and opening new avenues for all. My professional journey is marked by a relentless pursuit of excellence and a commitment to driving technological advancement. I believe that the power of technology can be harnessed by everyone, and I am dedicated to making this vision a reality.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27208,7 +27208,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _motionBackgroundJpgDefault.default),
+                src: (0, _backgroundJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27302,44 +27302,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/background.jpg":"e42Q5"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27489,7 +27452,44 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"e42Q5":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "background.4618d3e1.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28626,9 +28626,9 @@ var _resumePdfDefault = parcelHelpers.interopDefault(_resumePdf);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _fantasyBackgroundJpg = require("../images/fantasy-background.jpg");
-var _fantasyBackgroundJpgDefault = parcelHelpers.interopDefault(_fantasyBackgroundJpg);
-const imageAltText = "fantasy image";
+ */ var _neuralNetworkBackgroundJpg = require("../images/neural-network-background.jpg");
+var _neuralNetworkBackgroundJpgDefault = parcelHelpers.interopDefault(_neuralNetworkBackgroundJpg);
+const imageAltText = "an image of neural networks";
 const Home = ({ name , title  })=>{
     /**
    * Downloads the resume file stored in the path .
@@ -28648,7 +28648,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _fantasyBackgroundJpgDefault.default),
+                src: (0, _neuralNetworkBackgroundJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28742,14 +28742,14 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../resume.pdf":"3XoFp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/fantasy-background.jpg":"1yucV"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../resume.pdf":"3XoFp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/neural-network-background.jpg":"1tOEx"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"3XoFp":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "resume.9746299c.pdf" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"1yucV":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "fantasy-background.bab206e9.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"1tOEx":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "neural-network-background.ac71ea42.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28789,12 +28789,12 @@ const imageAltText = "laptop and book";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
+        title: "",
         description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
         url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
     },
     {
-        title: "Web Development for Beginners",
+        title: "",
         description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
         url: "https://github.com/microsoft/web-dev-for-beginners"
     },
@@ -28805,7 +28805,7 @@ const imageAltText = "laptop and book";
     },
     {
         title: "GitHub Codespaces and github.dev",
-        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+        description: "",
         url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
     }, 
 ];
