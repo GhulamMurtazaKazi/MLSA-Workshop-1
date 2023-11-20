@@ -27193,14 +27193,13 @@ const imageAltText = "abstract background";
     "Github",
     "Html",
     "CSS",
-    "Wordpress",
-    "", 
+    "Wordpress", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "With a fervor for problem-solving and a penchant for innovation, I leverage my extensive experience to consistently seek out fresh, creative solutions. My goal is to make technology universally accessible, breaking down barriers and opening new avenues for all. My professional journey is marked by a relentless pursuit of excellence and a commitment to driving technological advancement. I believe that the power of technology can be harnessed by everyone, and I am dedicated to making this vision a reality.";
+ */ const detailOrQuote = "As a student with a passion for problem-solving and innovation, I'm constantly seeking unique solutions in my learning journey. I aim to make technology accessible to all, breaking down barriers and creating new opportunities. My academic path is marked by a continuous quest for knowledge and a commitment to understanding technological advancements. I believe in the potential of every individual to harness the power of technology, and I'm dedicated to turning this belief into reality.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27212,7 +27211,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 53,
+                lineNumber: 52,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27228,7 +27227,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27236,12 +27235,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27256,17 +27255,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 76,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 79,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27276,19 +27275,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 52,
+        lineNumber: 51,
         columnNumber: 5
     }, undefined);
 };
@@ -28789,24 +28788,24 @@ const imageAltText = "laptop and book";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+        title: "My github repos",
+        description: "These repos witness my journey through the field of programming and all my learnings.",
+        url: "https://github.com/GhulamMurtazaKazi"
     },
     {
-        title: "",
+        title: "Coders cup",
         description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-        url: "https://github.com/microsoft/web-dev-for-beginners"
+        url: "https://www.linkedin.com/feed/update/urn:li:activity:7130151725784530945?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7130151725784530945%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BH4fIKsqlQ3SDgN1YbyLo9g%3D%3D"
     },
     {
         title: "My Resume Site",
         description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+        url: "https://www.linkedin.com/in/ghulam-murtaza-qazi-815804290?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEaZP5EB9Z6oDrIHJcnFAi6rW8LULLFi39k&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BMg3v1uA%2BTSS9XUpuAB1mvA%3D%3D"
     },
     {
-        title: "GitHub Codespaces and github.dev",
-        description: "",
-        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
+        title: "Explore my linkedin profile",
+        description: "Attended multiple workshops and webinars at university along with paticipating in competitive programming contests.",
+        url: "https://www.linkedin.com/in/ghulam-murtaza-qazi-815804290/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BH4fIKsqlQ3SDgN1YbyLo9g%3D%3D"
     }, 
 ];
 const Portfolio = ()=>{
